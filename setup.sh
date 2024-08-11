@@ -28,6 +28,7 @@ ttf-hack-nerd \
 otf-droid-nerd \
 pipewire \
 networksmanager \
+sddm
 
 
 # App for DoanHao
