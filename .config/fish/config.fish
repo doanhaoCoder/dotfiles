@@ -3,8 +3,7 @@ if status is-interactive
 end
 set fish_greeting ""
 
-if not test -e ~/.config/fish/agnoster.fish
-    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install
-    omf install agnoster
-    touch ~/.config/fish/agnoster.fish
+if not test -e ~/.config/fish/temp.fish
+    touch ~/.config/fish/temp.fish
+    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 end
