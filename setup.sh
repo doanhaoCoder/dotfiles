@@ -25,7 +25,8 @@ fish \
 rofi \
 flameshot \
 ttf-hack-nerd \
-otf-droid-nerd
+otf-droid-nerd \
+pipewire
 
 # App for DoanHao
 # List of packages to install
