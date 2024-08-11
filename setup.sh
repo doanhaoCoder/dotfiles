@@ -59,9 +59,6 @@ fi
 
 sudo systemctl enable sddm
 
-# oh-my-fish install
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-
 cp -r ./.config "$HOME"
 
 echo "Setup successfully"
