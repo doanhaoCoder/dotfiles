@@ -27,8 +27,7 @@ flameshot \
 ttf-hack-nerd \
 otf-droid-nerd \
 pipewire \
-networksmanager \
-sddm
+networkmanager
 
 
 # App for DoanHao
