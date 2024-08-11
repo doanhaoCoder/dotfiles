@@ -59,6 +59,7 @@ bindsym $mod+c exec code
 bindsym $mod+w exec firefox
 bindsym $mod+e exec dolphin
 bindsym $mod+i exec "flameshot gui"
+bindsym $mod+n exec --no-startup-id kitty -e nmtui
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
@@ -212,3 +213,4 @@ gaps outer 3
 exec --no-startup-id feh --bg-scale ~/.config/backgrounds/Background.png
 # polyar
 exec polybar
+# exec "ibus start"
