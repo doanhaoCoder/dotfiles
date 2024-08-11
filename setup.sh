@@ -26,7 +26,9 @@ rofi \
 flameshot \
 ttf-hack-nerd \
 otf-droid-nerd \
-pipewire
+pipewire \
+networksmanager \
+
 
 # App for DoanHao
 # List of packages to install
@@ -59,6 +61,7 @@ else
 fi
 
 sudo systemctl enable sddm
+sudo systemctl enable NetworkManager
 
 cp -r ./.config "$HOME"
 
