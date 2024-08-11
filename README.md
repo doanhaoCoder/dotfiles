@@ -2,6 +2,7 @@
 Keybind edit ".config/i3/config"
 - Super+Enter Termanal
 - Super+d Menu
+- Super+n Wifi(nmtui)
 - Super+q Kill
 - Super+p Shutdown
 - Super+i Screenshot
