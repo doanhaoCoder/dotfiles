@@ -8,7 +8,7 @@ cat << "EOF"
  ____    ___    ___   _   _    _   _   ___    ___
 |  _ \  / _ \  / _ \ | \ | |  | | | | / _ \  / _ \
 | | | || | | || |_| ||  \| |  | |_| || |_| || | | |
-| |_| || | | ||  _  || |\  |  |  _  ||  _  || | | |
+| |_| || |_| ||  _  || |\  |  |  _  ||  _  || | | |
 |____/  \___/ |_| |_||_| \_|  |_| |_||_| |_| \___/
 
 ___________________SETUP_DOTFILES__________________
@@ -58,9 +58,6 @@ else
 fi
 
 sudo systemctl enable sddm
-
-# oh-my-fish install
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 cp -r ./.config "$HOME"
 
