@@ -53,7 +53,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+l exec "i3lock --nofork --color=#61afef"
 bindsym $mod+d exec "rofi -show run"
 bindsym $mod+p exec "shutdown now"
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 bindsym $mod+Tab floating toggle
 bindsym $mod+c exec code
 bindsym $mod+w exec firefox
@@ -213,4 +213,5 @@ gaps outer 3
 exec --no-startup-id feh --bg-scale ~/.config/backgrounds/Background.png
 # polyar
 exec polybar
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
 # exec "ibus start"

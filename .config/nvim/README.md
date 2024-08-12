@@ -1,4 +1,4 @@
-# https://github.com/VuNguyenCoder/VimConfig
+# Repo https://github.com/VuNguyenCoder/VimConfig
 [Note]
 - Can run on both Window and Linux
 - Run command :PlugInstall after pulling this resource

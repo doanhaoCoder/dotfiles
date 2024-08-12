@@ -27,7 +27,8 @@ flameshot \
 ttf-hack-nerd \
 otf-droid-nerd \
 pipewire \
-networkmanager
+networkmanager \
+picom
 
 
 # App for DoanHao
@@ -44,6 +45,9 @@ packages=(
   "neofetch"
   "htop"
   "tree"
+  "obs-studio"
+  "telegram-desktop"
+  "discord"
 )
 
 # Ask for confirmation before installing
