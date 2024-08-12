@@ -107,7 +107,7 @@ label-mode-padding = 2
 label-mode-font = 3
 
 label-focused = %index%
-label-focused-background = #109EEF
+; label-focused-background = #109EEF
 label-focused-underline = #109EEF
 label-focused-padding = 3
 label-focused-font = 3
@@ -296,6 +296,11 @@ format-charging = <animation-charging> <label-charging>
 format-charging-padding = 2
 format-charging-underline = ${colors.menucol-orange}
 
+; Hiển thị khi pin đầy 100%
+format-full = <label-full>
+format-full-padding = 2
+format-full-underline = ${colors.menucol-orange}
+
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-padding = 2
 format-discharging-underline = ${colors.menucol-orange}
@@ -303,27 +308,30 @@ format-discharging-underline = ${colors.menucol-orange}
 label-charging = %percentage%
 label-charging-font = 3
 
+label-full = ⚡ %percentage%
+label-full-font = 3
+
 label-discharging = %percentage%
 label-discharging-font = 3
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+animation-charging-0 = ⚡
+animation-charging-1 = ⚡
+animation-charging-2 = ⚡
+animation-charging-3 = ⚡
+animation-charging-4 = ⚡
 animation-charging-framerate = 750
 animation-charging-foreground = ${colors.menucol-orange}
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-3 = 
-animation-discharging-4 = 
-animation-discharging-5 = 
-animation-discharging-6 = 
-animation-discharging-7 = 
-animation-discharging-8 = 
-animation-discharging-9 = 
+animation-discharging-0 = ⚡
+animation-discharging-1 = ⚡
+animation-discharging-2 = ⚡
+animation-discharging-3 = ⚡
+animation-discharging-4 = ⚡
+animation-discharging-5 = ⚡
+animation-discharging-6 = ⚡
+animation-discharging-7 = ⚡
+animation-discharging-8 = ⚡
+animation-discharging-9 = ⚡
 animation-discharging-framerate = 750
 animation-discharging-foreground = ${colors.menucol-orange}
 
