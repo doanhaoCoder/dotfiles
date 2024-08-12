@@ -70,6 +70,7 @@ sudo systemctl enable sddm
 sudo systemctl enable NetworkManager
 
 cp -r ./.config "$HOME"
+cp -r ./.local "$HOME"
 
 echo "Setup successfully"
 

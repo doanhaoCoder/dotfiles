@@ -50,8 +50,8 @@ tiling_drag modifier titlebar
 
 # DoanHao KEYBIND
 bindsym $mod+Return exec kitty
-bindsym $mod+l exec "i3lock --nofork --color=#61afef"
-bindsym $mod+d exec "rofi -show run"
+bindsym $mod+l exec "i3lock -i ~/.local/share/i3lock.png"
+bindsym $mod+d exec "rofi -show drun"
 bindsym $mod+p exec "shutdown now"
 bindsym $mod+Shift+q kill
 bindsym $mod+Tab floating toggle
@@ -210,7 +210,7 @@ for_window [class=".*"] border pixel 3
 gaps inner 6
 gaps outer 3
 # background
-exec --no-startup-id feh --bg-scale ~/.config/backgrounds/Background.png
+exec --no-startup-id feh --bg-scale ~/.local/share/wallpaper.png
 # polyar
 exec polybar
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
