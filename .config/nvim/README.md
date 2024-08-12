@@ -11,6 +11,7 @@
 - bat
 
 npm install neovim -g
+
 pip install pynvim (sudo pacman -S python-pip)
 
 - insatll plug-vim github
