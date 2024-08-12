@@ -10,12 +10,10 @@
 - vim-plug
 - bat
 
-npm install neovim -g
-
-pip install pynvim (sudo pacman -S python-pip)
-
-- insatll plug-vim github
-- :PlugInstall
+[Request packages]
+- npm install neovim -g
+- pip install pynvim (sudo pacman -S python-pip)
+- plug-vim (github)
 
 # windows setup
 - create folder nvim in appdata/local
