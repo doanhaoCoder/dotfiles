@@ -48,6 +48,8 @@ packages=(
   "obs-studio"
   "telegram-desktop"
   "discord"
+  "nvidia"
+  "nvidia-utils"
 )
 
 # Ask for confirmation before installing
