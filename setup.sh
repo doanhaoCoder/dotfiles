@@ -53,8 +53,6 @@ packages=(
   "discord"
   "nvidia"
   "nvidia-utils"
-# always use nvidia gpu
-# sudo nvidia-smi -pm 1
 )
 
 # Ask for confirmation before installing
@@ -87,3 +85,5 @@ case "$choice" in
     n|N ) echo "Reboot canceled."; exit 0;;
     * ) echo "Invalid choice. Reboot canceled."; exit 1;;
 esac
+# always use nvidia gpu
+# sudo nvidia-smi -pm 1
