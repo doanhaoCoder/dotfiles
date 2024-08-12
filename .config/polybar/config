@@ -1,3 +1,5 @@
+; https://github.com/AriosJentu/i3-polybar-config
+
 [fonts]
 opensansreg = DroidSans:Regular:size=8
 opensanssemibold = Hack nerd font:SemiBold:size=8
