@@ -24,11 +24,14 @@ kitty \
 fish \
 rofi \
 flameshot \
-ttf-hack-nerd \
 otf-droid-nerd \
+ttf-hack-nerd \
 pipewire \
 networkmanager \
-picom
+picom \
+pipewire-pulse \
+pipewire-alsa \
+pavucontrol
 
 
 # App for DoanHao
@@ -50,6 +53,8 @@ packages=(
   "discord"
   "nvidia"
   "nvidia-utils"
+# always use nvidia gpu
+# sudo nvidia-smi -pm 1
 )
 
 # Ask for confirmation before installing
