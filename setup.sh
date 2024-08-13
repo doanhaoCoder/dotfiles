@@ -31,8 +31,10 @@ networkmanager \
 picom \
 pipewire-pulse \
 pipewire-alsa \
-pavucontrol
-
+pavucontrol \
+python \
+python3 \
+nodejs
 
 # App for DoanHao
 # List of packages to install
