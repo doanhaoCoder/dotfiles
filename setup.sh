@@ -53,6 +53,8 @@ packages=(
   "discord"
   "nvidia"
   "nvidia-utils"
+  "gnome-disk-utility"
+  "file-roller"
 )
 
 # Ask for confirmation before installing
