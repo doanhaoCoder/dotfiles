@@ -11,7 +11,7 @@
 - bat
 
 [Request packages]
-- npm install neovim
+- npm install neovim (Linux-Windows)
 - python-pynvim (Linux)
 - plug-vim (github)
 
