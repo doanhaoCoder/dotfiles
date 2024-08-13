@@ -52,10 +52,14 @@ packages=(
   "telegram-desktop"
   "discord"
   "nvidia"
+  # always use nvidia gpu
+  # sudo nvidia-smi -pm 1
   "nvidia-utils"
   "nvtop"
   "gnome-disk-utility"
   "file-roller"
+  "base-devel"
+  # makepkg -si
 )
 
 # Ask for confirmation before installing
@@ -88,5 +92,3 @@ case "$choice" in
     n|N ) echo "Reboot canceled."; exit 0;;
     * ) echo "Invalid choice. Reboot canceled."; exit 1;;
 esac
-# always use nvidia gpu
-# sudo nvidia-smi -pm 1
