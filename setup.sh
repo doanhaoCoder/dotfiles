@@ -53,6 +53,7 @@ packages=(
   "discord"
   "nvidia"
   "nvidia-utils"
+  "nvtop"
   "gnome-disk-utility"
   "file-roller"
 )
