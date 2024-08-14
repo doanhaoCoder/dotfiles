@@ -61,6 +61,7 @@ packages=(
   "gnome-disk-utility"
   "file-roller"
   "base-devel"
+  # use build pkgfile
   # makepkg -si
 )
 
