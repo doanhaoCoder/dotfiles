@@ -1,4 +1,5 @@
 # dotfiles
+![alt text](https://github.com/doanhaoCoder/dotfiles/blob/main/preview/preview.png)
 [Some of my shortcuts]
 - edit keybind ".config/i3/config"
 - Super+Enter Termanal
@@ -14,4 +15,3 @@
 - Super+c Vscode
 # Install
 chmod +x setup.sh && ./setup.sh
-![alt text]()
