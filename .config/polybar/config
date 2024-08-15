@@ -109,8 +109,8 @@ label-mode-padding = 2
 label-mode-font = 3
 
 label-focused = %index%
-; label-focused-background = #109EEF
-label-focused-underline = #109EEF
+; label-focused-background = #E31F43
+label-focused-underline = #E31F43
 label-focused-padding = 3
 label-focused-font = 3
 
