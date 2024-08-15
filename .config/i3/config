@@ -50,7 +50,7 @@ tiling_drag modifier titlebar
 
 # DoanHao KEYBIND
 bindsym $mod+Return exec kitty
-bindsym $mod+l exec "i3lock -i ~/.local/share/i3lock.png"
+bindsym $mod+l exec "i3lock -i ~/.local/share/wallpaper.png"
 bindsym $mod+d exec "rofi -show drun"
 bindsym $mod+Shift+p exec "shutdown now"
 bindsym $mod+Shift+q kill
