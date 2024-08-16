@@ -208,8 +208,8 @@ client.urgent           #E31F43 #E31F43 #E31F43 #E31F43
 # hidden title window i3
 for_window [class=".*"] border pixel 2
 # Đặt khoảng cách (gaps) cho các cửa sổ
-gaps inner 6
-gaps outer 3
+gaps inner 4
+gaps outer 2
 # background
 exec --no-startup-id feh --bg-scale ~/.local/share/wallpaper.png
 # polyar

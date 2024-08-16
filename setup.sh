@@ -63,6 +63,7 @@ packages=(
   "base-devel"
   # use build pkgfile
   # makepkg -si
+  "btop"
 )
 
 # Ask for confirmation before installing
