@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://github.com/doanh22aoCoder
+# https://github.com/doanhaoCoder
 # https://www.youtube.com/@HaoNhat-zr4kn
 # https://www.facebook.com/doanhao42
 
