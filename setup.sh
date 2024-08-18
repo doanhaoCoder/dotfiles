@@ -64,6 +64,7 @@ packages=(
   # use build pkgfile
   # makepkg -si
   "btop"
+  "virtualbox"
 )
 
 # Ask for confirmation before installing
