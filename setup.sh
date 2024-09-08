@@ -46,7 +46,7 @@ packages=(
   "ranger"
   "vlc"
   "docker"
-  "neovim"
+  "nano"
   "neofetch"
   "htop"
   "tree"
