@@ -1,0 +1,14 @@
+# ~/.xprofile
+# sudo pacman -S xorg-xinput
+# xinput list
+# xinput list-props <device-id>
+
+# Bật Tapping
+xinput set-prop 15 "libinput Tapping Enabled" 1
+
+# Bật Natural Scrolling
+xinput set-prop 15 "libinput Natural Scrolling Enabled" 1
+
+# Bật Two-Finger Scrolling
+xinput set-prop 15 "libinput Scroll Method Enabled" 0, 0, 1
+
