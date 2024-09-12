@@ -34,7 +34,8 @@ pipewire-alsa \
 pavucontrol \
 python \
 python3 \
-nodejs
+nodejs \
+xorg-xinput
 
 # App for DoanHao
 # List of packages to install
@@ -61,7 +62,7 @@ packages=(
   "gnome-disk-utility"
   "file-roller"
   "base-devel"
-  # use build pkgfile
+  # how to use build pkgfile
   # makepkg -si
   "btop"
   "virtualbox"
