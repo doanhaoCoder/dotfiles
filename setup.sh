@@ -66,6 +66,8 @@ packages=(
   # makepkg -si
   "btop"
   "virtualbox"
+  "vim"
+  "neovim"
 )
 
 # Ask for confirmation before installing
