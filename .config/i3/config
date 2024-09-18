@@ -201,10 +201,10 @@ mode "resize" {
 # Đặt kích thước viền cho cửa sổ
 default_border pixel 2
 # border color
-client.focused          #E31F43 #E31F43 #E31F43 #E31F43
+client.focused          #61afef #61afef #61afef #61afef
 client.focused_inactive #393e48 #393e48 #393e48 #393e48
 client.unfocused        #393e48 #393e48 #393e48 #393e48
-client.urgent           #E31F43 #E31F43 #E31F43 #E31F43
+client.urgent           #61afef #61afef #61afef #61afef
 # hidden title window i3
 for_window [class=".*"] border pixel 2
 # Đặt khoảng cách (gaps) cho các cửa sổ
