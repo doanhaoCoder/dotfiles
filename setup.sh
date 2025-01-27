@@ -1,7 +1,11 @@
 #!/bin/bash
-sudo pacman -Sy --noconfirm 
-sudo pacman -Rns pipewire-pulse
-sudo pacman -S --noconfirm sddm fish kitty ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pulseaudio pulseaudio-bluetooth pavucontrol networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox dolphin fzf btop htop vlc
+sudo pacman -Sy --noconfirm
+
+sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pulseaudio pulseaudio-bluetooth pavucontrol pamixer networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox fzf btop htop vlc
+
+sudo pacman -S --coconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin
+
+sudo pacman -S --noconfirm dkms nvidia-open nvidia-open-dkms xorg-xinit
 
 sudo cp ./environment /etc/
 cp -r ./.config $HOME
@@ -11,7 +15,7 @@ cd $HOME
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm swaylock-effects
+yay -S --noconfirm swaylock-effects code
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
