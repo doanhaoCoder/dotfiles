@@ -12,6 +12,9 @@ cp -r ./.config $HOME
 cp -r ./.local $HOME
 
 cd $HOME
+
+mkdir Pictures 
+
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
