@@ -18,7 +18,7 @@ mkdir Pictures
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm swaylock-effects code
+yay -S --noconfirm swaylock-effects cava code
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
