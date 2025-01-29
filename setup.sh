@@ -18,7 +18,7 @@ mkdir Pictures
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm swaylock-effects cava code
+yay -S --noconfirm swaylock-effects cava code microsoft-edge-stable-bin
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
