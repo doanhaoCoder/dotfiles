@@ -66,14 +66,14 @@
         "format": " Cpu: {usage}%" ,
         "tooltip": false,
         // "on-click": "btop --tty_on &",
-        "on-click": "kitty -e btop --tty_on"
+        "on-click": "kitty -e btop"
 
     },
     "memory": {
         "interval": 5,
         "format": " Mem: {}%",
         "max-length": 15,
-        "on-click": "kitty -e btop --tty_on"
+        "on-click": "kitty -e btop"
 
     },
     "tray": {
@@ -209,7 +209,7 @@
 	    "interval": 300,
         "max-length": 20,
         "exec": "df --total -hl | grep 'nvme0n1' | awk '{print $5}'",
-        "on-click": "kitty -e btop --tty_on"
+        "on-click": "kitty -e btop"
 
     },
     "custom/power": {
