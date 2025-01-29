@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman -Sy --noconfirm
 
-sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pipewire wireplumber pavucontrol pamixer networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox ranger nautilus fzf btop htop vlc
+sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pipewire wireplumber pavucontrol pamixer networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox ranger ueberzug nautilus fzf btop htop vlc
 
 sudo pacman -S --coconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin unrar
 
@@ -19,6 +19,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
 yay -S --noconfirm swaylock-effects cava code microsoft-edge-stable-bin
+
+# ranger devicons
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
