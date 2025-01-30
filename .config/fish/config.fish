@@ -52,17 +52,17 @@ set -g theme_display_node yes
 set -g theme_display_user ssh
 set -g theme_display_hostname ssh
 set -g theme_display_vi no
-set -g theme_display_date yes
+set -g theme_display_date no
 set -g theme_display_cmd_duration yes
-set -g theme_title_display_process es
-set -g theme_title_display_path ys
-set -g theme_title_display_user ys
+set -g theme_title_display_process yes
+set -g theme_title_display_path yes
+set -g theme_title_display_user yes
 set -g theme_title_use_abbreviate_path yes
 set -g theme_date_format "+%a %H:%"
 set -g theme_date_timezone America/Los_Angeles
 set -g theme_avoid_ambiguous_glyphs yes
-set -g theme_powerline_fonts ys
-set -g theme_nerd_fonts ys
+set -g theme_powerline_fonts yes
+set -g theme_nerd_fonts yes
 set -g theme_show_exit_sttus yes
 set -g theme_display_jobs_verboe yes
 set -g default_user your_yesrmal_usr
