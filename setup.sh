@@ -5,7 +5,7 @@ sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils
 
 sudo pacman -S --coconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin unrar
 
-sudo pacman -S --noconfirm dkms nvidia-open nvidia-open-dkms xorg-xinit
+sudo pacman -S --noconfirm dkms nvidia-open nvidia-open-dkms xorg-xinit opencl-nvidia
 
 sudo cp ./environment /etc/
 cp -r ./.config $HOME
