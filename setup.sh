@@ -3,7 +3,7 @@ sudo pacman -Sy --noconfirm
 
 sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pipewire wireplumber pavucontrol pamixer networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox ranger ueberzug nautilus fzf btop htop fastfetch vlc
 
-sudo pacman -S --coconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin unrar
+sudo pacman -S --noconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin unrar
 
 sudo pacman -S --noconfirm dkms nvidia-open nvidia-open-dkms xorg-xinit opencl-nvidia
 
