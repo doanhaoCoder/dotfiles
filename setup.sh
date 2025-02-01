@@ -1,11 +1,16 @@
 #!/bin/bash
 sudo pacman -Sy --noconfirm
 
-sudo pacman -S --noconfirm sddm fish ttf-hack-nerd rofi swaybg bluez bluez-utils blueman brightnessctl pipewire wireplumber pavucontrol pamixer networkmanager fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 neovim firefox ranger ueberzug nautilus fzf btop htop nvtop fastfetch vlc unrar waybar 
-
-# sudo pacman -S --noconfirm qt5-wayland qt6-wayland hyprland xdg-desktop-portal-hyprland kitty polkit-kde-agent dunst grim slurp wofi dolphin unrar
-
-# sudo pacman -S --noconfirm dkms nvidia-open nvidia-open-dkms xorg-xinit opencl-nvidia
+sudo pacman -S --noconfirm \
+sddm kitty fish ttf-hack-nerd ttf-jetbrains-mono-nerd rofi swaybg waybar \
+dunst grim slurp \
+networkmanager bluez bluez-utils blueman \
+brightnessctl pipewire wireplumber pavucontrol pamixer \
+fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 \ 
+dolphin nautilus unrar \
+htop btop nvtop \
+neovim ranger ueberzug fzf \
+firefox vlc
 
 sudo cp ./environment /etc/
 cp -r ./.config $HOME
