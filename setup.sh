@@ -27,9 +27,6 @@ yay -S --noconfirm swaylock-effects cava code microsoft-edge-stable-bin
 
 # ranger devicons
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
-# fastfetch config
-git clone https://github.com/LierB/fastfetch.git ~/.config/fastfetch 
-cp ~/.config/fastfetch/presets/nyarch.jsonc ~/.config/fastfetch/config.jsonc
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
