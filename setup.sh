@@ -2,14 +2,14 @@
 sudo pacman -Sy --noconfirm
 
 sudo pacman -S --noconfirm \
-sddm kitty ttf-hack-nerd ttf-jetbrains-mono-nerd rofi swaybg waybar \
+sddm kitty zsh ttf-hack-nerd ttf-jetbrains-mono-nerd rofi swaybg waybar \
 dunst grim slurp \
 networkmanager bluez bluez-utils blueman \
 brightnessctl pipewire wireplumber pavucontrol pamixer \
 fcitx5 fcitx5-qt fcitx5-gtk fcitx5-unikey kcm-fcitx5 \
 dolphin nautilus unrar \
 htop btop nvtop \
-neovim nano ranger ueberzug fzf ark\
+neovim nano ranger ueberzug fzf ark \
 firefox vlc
 
 # zsh
