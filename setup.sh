@@ -42,5 +42,9 @@ sudo systemctl enable bluetooth
 sudo systemctl enable sddm
 sudo systemctl enable docker
 
+# sudo pacman -S os-prober
+# sudo os-prober
+# sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 echo "Installation complete. The system will now reboot."
 sudo reboot
